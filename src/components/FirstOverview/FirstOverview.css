@@ -1,2 +1,8 @@
 .firstOverview {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  background-color: #f8f9fa;
+  padding: 30px;
+  position: fixed;
 }

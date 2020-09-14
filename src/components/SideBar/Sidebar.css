@@ -1,7 +1,6 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  flex: 0.3;
 }
 .sidebar__header {
   display: flex;
@@ -16,7 +15,7 @@
   min-width: 10vw;
 }
 .sidebar__headerRight > .MuiSvgIcon-root {
-  margin-right: 2vw;
+  /*margin-right: 2vw;*/
   font-size: 24px !important;
 }
 
@@ -26,6 +25,7 @@
   background-color: #f6f6f6;
   height: 39px;
   padding: 10px;
+  margin: 8px;
 }
 .sidebar__searchContainer {
   display: flex;
@@ -37,7 +37,6 @@
 }
 .sidebar__searchContainer > .MuiSvgIcon-root {
   color: gray;
-  padding: 10px;
 }
 .sidebar__searchContainer > input {
   border: none;
