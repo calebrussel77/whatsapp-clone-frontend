@@ -120,7 +120,7 @@ const Chat = (props) => {
                       : "chat__message"
                   }
                 >
-                  <span className="chat__name text-xs text-gray-900 font-semibold leading-tight">
+                  <span className="chat__name text-xs text-gray-900 font-semibold leading-tight whitespace-no-wrap">
                     {message.name}
                   </span>
                   {message.message}
